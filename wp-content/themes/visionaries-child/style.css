@@ -8,6 +8,5720 @@ Template: visionaries
 Version: 0.1.0
 */
 
-p {color: pink;}
+/*p {color: pink;}*/
 
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,100');
 
+@font-face {
+                          font-family: "Anders";
+                          src: url('../fonts/Anders.ttf') format("truetype");
+                        }
+                        
+.bp2-hometablet {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 5992px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-hometablet .bp2-aboutsection {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 768px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-aboutsection-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1024px;
+  align-items         : center;
+  height              : 577px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-hometablet .bp2-aboutsection-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-aboutsection .bp2-rectangle {
+  background-color    : rgba(244, 242, 249, 1.0);
+  top                 : 29px;
+  height              : 500px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-aboutsection .bp2-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 477px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-aboutsection .bp2-rectangle1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 577px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-hometablet .bp2-aboutsection .bp2-rectangle1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-aboutsection .bp2-alittleaboutuslo {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  width               : 302px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-hometablet .bp2-aboutsection .bp2-alittleaboutuslo-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 133px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-hometablet .bp2-aboutsection .bp2-alittleaboutuslo-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-aboutsection .bp2-alittleaboutuslo .bp2-span1 {
+  line-height         : 31.0px;
+}
+.bp2-hometablet .bp2-aboutsection .bp2-alittleaboutuslo .bp2-span2 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp2-hometablet .bp2-aboutsection .bp2-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 56px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-aboutsection .bp2-line2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 194px;
+  align-items         : center;
+  height              : 1px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-hometablet .bp2-aboutsection .bp2-line2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-section5 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 775px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 4667px;
+  align-items         : center;
+  height              : 1025px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-hometablet .bp2-section5-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-section5 .bp2-rectangle {
+  background-color    : rgba(244, 242, 249, 1.0);
+  top                 : 0px;
+  height              : 1025px;
+  width               : 773px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5 .bp2-whitecircuit {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 249px;
+  height              : 527px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5 .bp2-whitecircuit .bp2-mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 527px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5 .bp2-whitecircuit .bp2-whitecircuit1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 499px;
+  width               : 1389px;
+  position            : absolute;
+  margin              : 0;
+  left                : -621px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5 .bp2-tara {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 128px;
+  height              : 194px;
+  width               : 194px;
+  position            : absolute;
+  margin              : 0;
+  left                : 452px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5 .bp2-sandeep {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 655px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 428px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5 .bp2-davis {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 376px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 428px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 154px;
+  height              : auto;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup .bp2-tarajakubiecaexce {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 318px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup .bp2-tarajakubiecaexce .bp2-span1 {
+  line-height         : 31.0px;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup .bp2-tarajakubiecaexce .bp2-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup .bp2-tarajakubiecaexce .bp2-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup .bp2-viewportfoliocopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 45px;
+  margin              : 5px 0 0 0;
+  width               : 140px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup .bp2-viewportfoliocopy3 .bp2-rectangle1 {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup .bp2-viewportfoliocopy3 .bp2-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 411px;
+  height              : auto;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup2 .bp2-davismartinaexcer {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 318px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup2 .bp2-davismartinaexcer .bp2-span1 {
+  line-height         : 31.0px;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup2 .bp2-davismartinaexcer .bp2-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup2 .bp2-davismartinaexcer .bp2-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup2 .bp2-viewportfoliocopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 45px;
+  margin              : 5px 0 0 0;
+  width               : 140px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup2 .bp2-viewportfoliocopy4 .bp2-rectangle1 {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup2 .bp2-viewportfoliocopy4 .bp2-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup3 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 689px;
+  height              : auto;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup3 .bp2-sandeepkauraexcer {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 318px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup3 .bp2-sandeepkauraexcer .bp2-span1 {
+  line-height         : 31.0px;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup3 .bp2-sandeepkauraexcer .bp2-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup3 .bp2-sandeepkauraexcer .bp2-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup3 .bp2-viewportfoliocopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 45px;
+  margin              : 5px 0 0 0;
+  width               : 140px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup3 .bp2-viewportfoliocopy5 .bp2-rectangle1 {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section5 .bp2-stackedgroup3 .bp2-viewportfoliocopy5 .bp2-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-hometablet .bp2-section4 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 768px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section4-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3753px;
+  align-items         : center;
+  height              : 803px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-hometablet .bp2-section4-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-section4 .bp2-greycircuit {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 175px;
+  height              : 453px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section4 .bp2-greycircuit .bp2-mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 453px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section4 .bp2-greycircuit .bp2-greycircuit1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -36px;
+  height              : 499px;
+  width               : 1393px;
+  position            : absolute;
+  margin              : 0;
+  left                : -52px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section4 .bp2-natalie {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 558px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 62px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-hometablet .bp2-section4 .bp2-natalie {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-section4 .bp2-natalie:hover {
+  transform           : scale(1.1);
+}
+.bp2-hometablet .bp2-section4 .bp2-michelle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 307px;
+  height              : 193px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 67px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-hometablet .bp2-section4 .bp2-michelle {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-section4 .bp2-michelle:hover {
+  transform           : scale(1.1);
+}
+.bp2-hometablet .bp2-section4 .bp2-jayda {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-hometablet .bp2-section4 .bp2-jayda {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-section4 .bp2-jayda:hover {
+  transform           : scale(1.1);
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 321px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup .bp2-jaydalooseaexcerp {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 318px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup .bp2-jaydalooseaexcerp .bp2-span1 {
+  line-height         : 31.0px;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup .bp2-jaydalooseaexcerp .bp2-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup .bp2-jaydalooseaexcerp .bp2-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup .bp2-viewportfolio {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 45px;
+  margin              : 5px 0 0 0;
+  width               : 140px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup .bp2-viewportfolio .bp2-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup .bp2-viewportfolio .bp2-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 297px;
+  height              : auto;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 318px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup2 .bp2-michellebeauleaex {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 318px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup2 .bp2-michellebeauleaex .bp2-span1 {
+  line-height         : 31.0px;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup2 .bp2-michellebeauleaex .bp2-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup2 .bp2-michellebeauleaex .bp2-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup2 .bp2-viewportfoliocopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 45px;
+  margin              : 5px 0 0 0;
+  width               : 140px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup2 .bp2-viewportfoliocopy6 .bp2-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup2 .bp2-viewportfoliocopy6 .bp2-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup3 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 577px;
+  height              : auto;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 321px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup3 .bp2-natalieevansaexce {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 318px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup3 .bp2-natalieevansaexce .bp2-span1 {
+  line-height         : 31.0px;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup3 .bp2-natalieevansaexce .bp2-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup3 .bp2-natalieevansaexce .bp2-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup3 .bp2-viewportfoliocopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 45px;
+  margin              : 5px 0 0 0;
+  width               : 140px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup3 .bp2-viewportfoliocopy2 .bp2-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section4 .bp2-stackedgroup3 .bp2-viewportfoliocopy2 .bp2-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-hometablet .bp2-section3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 775px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2617px;
+  align-items         : center;
+  height              : 1025px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-hometablet .bp2-section3-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-section3 .bp2-rectangle {
+  background-color    : rgba(244, 242, 249, 1.0);
+  top                 : 0px;
+  height              : 1025px;
+  width               : 773px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section3 .bp2-whitecircuit {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 249px;
+  height              : 527px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section3 .bp2-whitecircuit .bp2-mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 527px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section3 .bp2-whitecircuit .bp2-whitecircuit1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 499px;
+  width               : 1389px;
+  position            : absolute;
+  margin              : 0;
+  left                : -621px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section3 .bp2-ghislaine {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 390px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 428px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-hometablet .bp2-section3 .bp2-ghislaine {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-section3 .bp2-ghislaine:hover {
+  transform           : scale(1.1);
+}
+.bp2-hometablet .bp2-section3 .bp2-robandeep {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 669px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 428px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-hometablet .bp2-section3 .bp2-robandeep {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-section3 .bp2-robandeep:hover {
+  transform           : scale(1.1);
+}
+.bp2-hometablet .bp2-section3 .bp2-josh {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 111px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 428px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-hometablet .bp2-section3 .bp2-josh {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-section3 .bp2-josh:hover {
+  transform           : scale(1.1);
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 154px;
+  height              : auto;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup .bp2-joshuavenneaexcer {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 318px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup .bp2-joshuavenneaexcer .bp2-span1 {
+  line-height         : 31.0px;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup .bp2-joshuavenneaexcer .bp2-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup .bp2-joshuavenneaexcer .bp2-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup .bp2-viewportfoliocopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 45px;
+  margin              : 5px 0 0 0;
+  width               : 140px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup .bp2-viewportfoliocopy3 .bp2-rectangle1 {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup .bp2-viewportfoliocopy3 .bp2-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 411px;
+  height              : auto;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup2 .bp2-ghislaineaujlaaex {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 318px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup2 .bp2-ghislaineaujlaaex .bp2-span1 {
+  line-height         : 31.0px;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup2 .bp2-ghislaineaujlaaex .bp2-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup2 .bp2-ghislaineaujlaaex .bp2-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup2 .bp2-viewportfoliocopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 45px;
+  margin              : 5px 0 0 0;
+  width               : 140px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup2 .bp2-viewportfoliocopy4 .bp2-rectangle1 {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup2 .bp2-viewportfoliocopy4 .bp2-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup3 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 689px;
+  height              : auto;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 71px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup3 .bp2-robandeepkauraexc {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 318px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup3 .bp2-robandeepkauraexc .bp2-span1 {
+  line-height         : 31.0px;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup3 .bp2-robandeepkauraexc .bp2-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup3 .bp2-robandeepkauraexc .bp2-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup3 .bp2-viewportfoliocopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 45px;
+  margin              : 5px 0 0 0;
+  width               : 140px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup3 .bp2-viewportfoliocopy5 .bp2-rectangle1 {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section3 .bp2-stackedgroup3 .bp2-viewportfoliocopy5 .bp2-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-hometablet .bp2-section2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 766px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1703px;
+  align-items         : center;
+  height              : 804px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-hometablet .bp2-section2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-section2 .bp2-greycircuit {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 766px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section2 .bp2-greycircuit-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 176px;
+  align-items         : center;
+  height              : 453px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-hometablet .bp2-section2 .bp2-greycircuit-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-section2 .bp2-greycircuit .bp2-mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 453px;
+  width               : 766px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section2 .bp2-greycircuit .bp2-greycircuit1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -36px;
+  height              : 499px;
+  width               : 1389px;
+  position            : absolute;
+  margin              : 0;
+  left                : -52px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section2 .bp2-marlee {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 559px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-hometablet .bp2-section2 .bp2-marlee {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-section2 .bp2-marlee:hover {
+  transform           : scale(1.1);
+}
+.bp2-hometablet .bp2-section2 .bp2-june {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 280px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-hometablet .bp2-section2 .bp2-june {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-section2 .bp2-june:hover {
+  transform           : scale(1.1);
+}
+.bp2-hometablet .bp2-section2 .bp2-jasmine {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-hometablet .bp2-section2 .bp2-jasmine {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-section2 .bp2-jasmine:hover {
+  transform           : scale(1.1);
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : auto;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 321px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup .bp2-jasminekauraexcer {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 318px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup .bp2-jasminekauraexcer .bp2-span1 {
+  line-height         : 31.0px;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup .bp2-jasminekauraexcer .bp2-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup .bp2-jasminekauraexcer .bp2-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup .bp2-viewportfolio {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 45px;
+  margin              : 5px 0 0 0;
+  width               : 140px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup .bp2-viewportfolio .bp2-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup .bp2-viewportfolio .bp2-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 299px;
+  height              : auto;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 321px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup2 .bp2-juneyoungkimaexce {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 318px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup2 .bp2-juneyoungkimaexce .bp2-span1 {
+  line-height         : 31.0px;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup2 .bp2-juneyoungkimaexce .bp2-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup2 .bp2-juneyoungkimaexce .bp2-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup2 .bp2-viewportfoliocopy {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 45px;
+  margin              : 5px 0 0 0;
+  width               : 140px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup2 .bp2-viewportfoliocopy .bp2-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup2 .bp2-viewportfoliocopy .bp2-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup3 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 578px;
+  height              : auto;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 321px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup3 .bp2-marleepestellaexc {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 318px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup3 .bp2-marleepestellaexc .bp2-span1 {
+  line-height         : 31.0px;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup3 .bp2-marleepestellaexc .bp2-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup3 .bp2-marleepestellaexc .bp2-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup3 .bp2-viewportfoliocopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 45px;
+  margin              : 5px 0 0 0;
+  width               : 140px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup3 .bp2-viewportfoliocopy2 .bp2-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-section2 .bp2-stackedgroup3 .bp2-viewportfoliocopy2 .bp2-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-hometablet .bp2-header {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 768px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-header-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 145px;
+  align-items         : center;
+  height              : 712px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-hometablet .bp2-header-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-header .bp2-sketchpattern4x {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 429px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-header .bp2-sketchpattern4x .bp2-mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 429px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-header .bp2-sketchpattern4x .bp2-sketchpattern4x1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -41px;
+  height              : 494px;
+  width               : 1375px;
+  position            : absolute;
+  margin              : 0;
+  left                : -303px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-header .bp2-a2020visionaries {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 535px;
+  height              : auto;
+  width               : 468px;
+  position            : absolute;
+  margin              : 0;
+  left                : 151px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 100;
+  font-style          : normal;
+  font-size           : 60.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 48.0px;
+}
+.bp2-hometablet .bp2-header .bp2-a2020visionaries .bp2-span1 {
+  line-height         : 70.0px;
+}
+.bp2-hometablet .bp2-header .bp2-a2020visionaries .bp2-span2 {
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  line-height         : 63.0px;
+}
+.bp2-hometablet .bp2-header .bp2-neweranewdesign {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 605px;
+  height              : auto;
+  width               : 501px;
+  position            : absolute;
+  margin              : 0;
+  left                : 135px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp2-hometablet .bp2-header .bp2-gradshowbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 675px;
+  height              : 37px;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 286px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-hometablet .bp2-header .bp2-gradshowbutton {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-header .bp2-gradshowbutton:hover {
+  filter              : grayscale(100%);
+}
+.bp2-hometablet .bp2-header .bp2-gradshowbutton .bp2-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-header .bp2-gradshowbutton .bp2-gradshow {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  width               : 112px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp2-hometablet .bp2-header .bp2-gradshowbutton .bp2-gradshow-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 6px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-hometablet .bp2-header .bp2-gradshowbutton .bp2-gradshow-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-mainnav {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 474px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-mainnav-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 11px;
+  align-items         : center;
+  height              : 95px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-hometablet .bp2-mainnav-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-hometablet .bp2-mainnav .bp2-a80logo3x {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 95px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-mainnav .bp2-nicgraduates {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : auto;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 167px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-hometablet .bp2-mainnav .bp2-a2020 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : auto;
+  width               : 49px;
+  position            : absolute;
+  margin              : 0;
+  left                : 307px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp2-hometablet .bp2-mainnav .bp2-portfolios {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : auto;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 382px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp2-hometablet .bp2-footer {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 300px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-footer .bp2-rectangle {
+  background-color    : rgba(48, 52, 63, 1.0);
+  bottom              : 0px;
+  height              : 300px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-footer .bp2-youtubeicon {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 73px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 257px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-footer .bp2-twittericon {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 73px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 312px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-footer .bp2-linkedinicon {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 73px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 367px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-footer .bp2-instagramicon {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 73px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 422px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-footer .bp2-facebookicon {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 73px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 476px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-footer .bp2-copyright {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 37px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 291px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-hometablet .bp2-footer .bp2-niccontactquestion {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : auto;
+  width               : 194px;
+  position            : absolute;
+  margin              : 0;
+  left                : 126px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.bp2-hometablet .bp2-footer .bp2-niccontactquestion .bp2-span1 {
+  line-height         : 29.0px;
+}
+.bp2-hometablet .bp2-footer .bp2-niccontactquestion .bp2-span2 {
+  font-size           : 18.0px;
+  line-height         : 21.0px;
+}
+.bp2-hometablet .bp2-footer .bp2-nicaddress2300rya {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 126px;
+  top                 : 37px;
+  height              : auto;
+  width               : 194px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.bp2-hometablet .bp2-footer .bp2-nicaddress2300rya .bp2-span1 {
+  line-height         : 29.0px;
+}
+.bp2-hometablet .bp2-footer .bp2-nicaddress2300rya .bp2-span2 {
+  font-size           : 18.0px;
+  line-height         : 21.0px;
+}
+.bp2-hometablet .bp2-footer .bp2-a2020northislandco {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 37px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 316px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.bp1-homedesktop {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 4860px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-homedesktop .bp1-header {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1452px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-header-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 56px;
+  align-items         : center;
+  height              : 678px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-homedesktop .bp1-header-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-header .bp1-a2020visionaries {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  width               : 489px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 100;
+  font-style          : normal;
+  font-size           : 60.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 48.0px;
+}
+.bp1-homedesktop .bp1-header .bp1-a2020visionaries-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 502px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-homedesktop .bp1-header .bp1-a2020visionaries-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-header .bp1-a2020visionaries .bp1-span1 {
+  line-height         : 70.0px;
+}
+.bp1-homedesktop .bp1-header .bp1-a2020visionaries .bp1-span2 {
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  line-height         : 63.0px;
+}
+.bp1-homedesktop .bp1-header .bp1-neweranewdesign {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  width               : 533px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp1-homedesktop .bp1-header .bp1-neweranewdesign-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 574px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-homedesktop .bp1-header .bp1-neweranewdesign-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-header .bp1-greencircuitspan {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1452px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-header .bp1-greencircuitspan-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 522px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-homedesktop .bp1-header .bp1-greencircuitspan-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-header .bp1-gradshowbutton {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 188px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-header .bp1-gradshowbutton-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 631px;
+  align-items         : center;
+  height              : 47px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-homedesktop .bp1-header .bp1-gradshowbutton-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-header .bp1-gradshowbutton {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-header .bp1-gradshowbutton:hover {
+  filter              : grayscale(100%);
+}
+.bp1-homedesktop .bp1-header .bp1-gradshowbutton .bp1-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-header .bp1-gradshowbutton .bp1-gradshow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-homedesktop .bp1-mainnav {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : -37px;
+  height              : 100%;
+  width               : 474px;
+  margin-right        : 37px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-mainnav-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 11px;
+  align-items         : center;
+  height              : 95px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-homedesktop .bp1-mainnav-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-mainnav .bp1-a80logo3x {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 95px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-mainnav .bp1-nicgraduates {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : auto;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 167px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp1-homedesktop .bp1-mainnav .bp1-a2020 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : auto;
+  width               : 49px;
+  position            : absolute;
+  margin              : 0;
+  left                : 307px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "HelveticaNeue-Thin", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-homedesktop .bp1-mainnav .bp1-portfolios {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : auto;
+  width               : 92px;
+  position            : absolute;
+  margin              : 0;
+  left                : 382px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp1-homedesktop .bp1-aboutsection {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1440px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-aboutsection-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 872px;
+  align-items         : center;
+  height              : 607px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-homedesktop .bp1-aboutsection-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-aboutsection .bp1-rectangle {
+  background-color    : rgba(244, 242, 249, 1.0);
+  top                 : 32px;
+  height              : 526px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-aboutsection .bp1-halfcircuit4x {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 525px;
+  width               : 725px;
+  position            : absolute;
+  margin              : 0;
+  left                : 518px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-aboutsection .bp1-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 607px;
+  width               : 502px;
+  position            : absolute;
+  margin              : 0;
+  left                : 227px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-aboutsection .bp1-alittleaboutuslo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : auto;
+  width               : 317px;
+  position            : absolute;
+  margin              : 0;
+  left                : 312px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp1-homedesktop .bp1-aboutsection .bp1-alittleaboutuslo .bp1-span1 {
+  line-height         : 31.0px;
+}
+.bp1-homedesktop .bp1-aboutsection .bp1-alittleaboutuslo .bp1-span2 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp1-homedesktop .bp1-aboutsection .bp1-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 205px;
+  height              : 1px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 311px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section5 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1463px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section5-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3839px;
+  align-items         : center;
+  height              : 810px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-homedesktop .bp1-section5-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section5 .bp1-rectanglecopy {
+  background-color    : rgba(244, 242, 249, 1.0);
+  top                 : 0px;
+  height              : 809px;
+  width               : 1439px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section5 .bp1-whitecircuitcopy {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1463px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section5 .bp1-whitecircuitcopy-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 142px;
+  align-items         : center;
+  height              : 526px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-homedesktop .bp1-section5 .bp1-whitecircuitcopy-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section5 .bp1-greenlines2copy {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 14px;
+  top                 : 1px;
+  height              : 809px;
+  width               : 716px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section5 .bp1-davis {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 589px;
+  top                 : 253px;
+  height              : 295px;
+  width               : 295px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section5 .bp1-davis {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section5 .bp1-davis:hover {
+  transform           : scale(1.1);
+}
+.bp1-homedesktop .bp1-section5 .bp1-sandeep {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 309px;
+  top                 : 520px;
+  height              : 232px;
+  width               : 232px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section5 .bp1-sandeep {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section5 .bp1-sandeep:hover {
+  transform           : scale(1.1);
+}
+.bp1-homedesktop .bp1-section5 .bp1-tara {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 226px;
+  top                 : 37px;
+  height              : 233px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section5 .bp1-tara {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section5 .bp1-tara:hover {
+  transform           : scale(1.1);
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 308px;
+  height              : auto;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 234px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup .bp1-davismartinaexcer {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 318px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup .bp1-davismartinaexcer .bp1-span1 {
+  line-height         : 31.0px;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup .bp1-davismartinaexcer .bp1-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup .bp1-davismartinaexcer .bp1-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup .bp1-viewportfoliocopy10 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 47px;
+  margin              : 8px 0 0 0;
+  width               : 147px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup .bp1-viewportfoliocopy10 {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup .bp1-viewportfoliocopy10:hover {
+  filter              : grayscale(100%);
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup .bp1-viewportfoliocopy10 .bp1-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 147px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup .bp1-viewportfoliocopy10 .bp1-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : auto;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 655px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup2 .bp1-tarajakubiecaexce {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 318px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup2 .bp1-tarajakubiecaexce .bp1-span1 {
+  line-height         : 31.0px;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup2 .bp1-tarajakubiecaexce .bp1-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup2 .bp1-tarajakubiecaexce .bp1-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup2 .bp1-viewportfoliocopy9 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 47px;
+  margin              : 8px 0 0 0;
+  width               : 147px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup2 .bp1-viewportfoliocopy9 {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup2 .bp1-viewportfoliocopy9:hover {
+  filter              : grayscale(100%);
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup2 .bp1-viewportfoliocopy9 .bp1-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 147px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup2 .bp1-viewportfoliocopy9 .bp1-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup3 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 548px;
+  height              : auto;
+  width               : 316px;
+  position            : absolute;
+  margin              : 0;
+  left                : 571px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup3 .bp1-sandeepkauraexcer {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 318px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup3 .bp1-sandeepkauraexcer .bp1-span1 {
+  line-height         : 31.0px;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup3 .bp1-sandeepkauraexcer .bp1-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup3 .bp1-sandeepkauraexcer .bp1-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup3 .bp1-viewportfoliocopy11 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 47px;
+  margin              : 8px 0 0 0;
+  width               : 147px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup3 .bp1-viewportfoliocopy11 {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup3 .bp1-viewportfoliocopy11:hover {
+  filter              : grayscale(100%);
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup3 .bp1-viewportfoliocopy11 .bp1-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 147px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section5 .bp1-stackedgroup3 .bp1-viewportfoliocopy11 .bp1-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 126px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp1-homedesktop .bp1-section4 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1452px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section4-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3069px;
+  align-items         : center;
+  height              : 803px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-homedesktop .bp1-section4-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section4 .bp1-greycircuitcopy {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1452px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section4 .bp1-greycircuitcopy-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 141px;
+  align-items         : center;
+  height              : 522px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-homedesktop .bp1-section4 .bp1-greycircuitcopy-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section4 .bp1-greenlinescopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 803px;
+  width               : 670px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section4 .bp1-jayda {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 301px;
+  width               : 301px;
+  position            : absolute;
+  margin              : 0;
+  left                : 501px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section4 .bp1-jayda {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section4 .bp1-jayda:hover {
+  transform           : scale(1.1);
+}
+.bp1-homedesktop .bp1-section4 .bp1-michelle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 254px;
+  height              : 301px;
+  width               : 301px;
+  position            : absolute;
+  margin              : 0;
+  left                : 188px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section4 .bp1-michelle {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section4 .bp1-michelle:hover {
+  transform           : scale(1.1);
+}
+.bp1-homedesktop .bp1-section4 .bp1-natalie {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 473px;
+  height              : 301px;
+  width               : 301px;
+  position            : absolute;
+  margin              : 0;
+  left                : 601px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section4 .bp1-natalie {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section4 .bp1-natalie:hover {
+  transform           : scale(1.1);
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : auto;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 820px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup .bp1-jaydalooseaexcerp {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 316px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup .bp1-jaydalooseaexcerp .bp1-span1 {
+  line-height         : 31.0px;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup .bp1-jaydalooseaexcerp .bp1-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup .bp1-jaydalooseaexcerp .bp1-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup .bp1-viewportfoliocopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 47px;
+  margin              : 6px 0 0 0;
+  width               : 146px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup .bp1-viewportfoliocopy6 {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup .bp1-viewportfoliocopy6:hover {
+  filter              : grayscale(100%);
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup .bp1-viewportfoliocopy6 .bp1-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup .bp1-viewportfoliocopy6 .bp1-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 312px;
+  height              : auto;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 486px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup2 .bp1-stackedgroup1 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 314px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup2 .bp1-stackedgroup1 .bp1-michellebeauleaex {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 316px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup2 .bp1-stackedgroup1 .bp1-michellebeauleaex .bp1-span1 {
+  line-height         : 31.0px;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup2 .bp1-stackedgroup1 .bp1-michellebeauleaex .bp1-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup2 .bp1-stackedgroup1 .bp1-michellebeauleaex .bp1-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup2 .bp1-stackedgroup1 .bp1-viewportfoliocopy7 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 47px;
+  margin              : 6px 0 0 0;
+  width               : 146px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup2 .bp1-stackedgroup1 .bp1-viewportfoliocopy7 {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup2 .bp1-stackedgroup1 .bp1-viewportfoliocopy7:hover {
+  filter              : grayscale(100%);
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup2 .bp1-stackedgroup1 .bp1-viewportfoliocopy7 .bp1-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup2 .bp1-stackedgroup1 .bp1-viewportfoliocopy7 .bp1-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup3 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 526px;
+  height              : auto;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 904px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup3 .bp1-natalieevansaexce {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 316px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup3 .bp1-natalieevansaexce .bp1-span1 {
+  line-height         : 31.0px;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup3 .bp1-natalieevansaexce .bp1-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup3 .bp1-natalieevansaexce .bp1-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup3 .bp1-viewportfoliocopy8 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 47px;
+  margin              : 7px 0 0 0;
+  width               : 146px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup3 .bp1-viewportfoliocopy8 {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup3 .bp1-viewportfoliocopy8:hover {
+  filter              : grayscale(100%);
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup3 .bp1-viewportfoliocopy8 .bp1-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section4 .bp1-stackedgroup3 .bp1-viewportfoliocopy8 .bp1-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp1-homedesktop .bp1-section3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1452px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2303px;
+  align-items         : center;
+  height              : 805px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-homedesktop .bp1-section3-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section3 .bp1-rectangle {
+  background-color    : rgba(244, 242, 249, 1.0);
+  top                 : 0px;
+  height              : 804px;
+  width               : 1428px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section3 .bp1-whitecircuit {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1452px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section3 .bp1-whitecircuit-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 141px;
+  align-items         : center;
+  height              : 522px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-homedesktop .bp1-section3 .bp1-whitecircuit-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section3 .bp1-greenlines2 {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 11px;
+  top                 : 2px;
+  height              : 803px;
+  width               : 711px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section3 .bp1-ghislaine {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 584px;
+  top                 : 244px;
+  height              : 301px;
+  width               : 301px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section3 .bp1-ghislaine {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section3 .bp1-ghislaine:hover {
+  transform           : scale(1.1);
+}
+.bp1-homedesktop .bp1-section3 .bp1-robandeep {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 268px;
+  top                 : 480px;
+  height              : 294px;
+  width               : 294px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section3 .bp1-robandeep {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section3 .bp1-robandeep:hover {
+  transform           : scale(1.1);
+}
+.bp1-homedesktop .bp1-section3 .bp1-josh {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 195px;
+  top                 : 7px;
+  height              : 301px;
+  width               : 301px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section3 .bp1-josh {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section3 .bp1-josh:hover {
+  transform           : scale(1.1);
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 58px;
+  height              : auto;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 653px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup .bp1-joshuavenneaexcer {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 316px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup .bp1-joshuavenneaexcer .bp1-span1 {
+  line-height         : 31.0px;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup .bp1-joshuavenneaexcer .bp1-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup .bp1-joshuavenneaexcer .bp1-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup .bp1-viewportfoliocopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 47px;
+  margin              : 5px 0 0 0;
+  width               : 146px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup .bp1-viewportfoliocopy3 {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup .bp1-viewportfoliocopy3:hover {
+  filter              : grayscale(100%);
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup .bp1-viewportfoliocopy3 .bp1-rectangle1 {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup .bp1-viewportfoliocopy3 .bp1-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 288px;
+  height              : auto;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 235px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup2 .bp1-ghislaineaujlaaex {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 316px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup2 .bp1-ghislaineaujlaaex .bp1-span1 {
+  line-height         : 31.0px;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup2 .bp1-ghislaineaujlaaex .bp1-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup2 .bp1-ghislaineaujlaaex .bp1-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup2 .bp1-viewportfoliocopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 47px;
+  margin              : 5px 0 0 0;
+  width               : 146px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup2 .bp1-viewportfoliocopy4 {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup2 .bp1-viewportfoliocopy4:hover {
+  filter              : grayscale(100%);
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup2 .bp1-viewportfoliocopy4 .bp1-rectangle1 {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup2 .bp1-viewportfoliocopy4 .bp1-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup3 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 545px;
+  height              : auto;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 570px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup3 .bp1-robandeepkauraexc {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 316px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup3 .bp1-robandeepkauraexc .bp1-span1 {
+  line-height         : 31.0px;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup3 .bp1-robandeepkauraexc .bp1-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup3 .bp1-robandeepkauraexc .bp1-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup3 .bp1-viewportfoliocopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 47px;
+  margin              : 5px 0 0 0;
+  width               : 146px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup3 .bp1-viewportfoliocopy5 {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup3 .bp1-viewportfoliocopy5:hover {
+  filter              : grayscale(100%);
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup3 .bp1-viewportfoliocopy5 .bp1-rectangle1 {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section3 .bp1-stackedgroup3 .bp1-viewportfoliocopy5 .bp1-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp1-homedesktop .bp1-section2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1452px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1537px;
+  align-items         : center;
+  height              : 803px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-homedesktop .bp1-section2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section2 .bp1-greycircuit {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1452px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section2 .bp1-greycircuit-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 140px;
+  align-items         : center;
+  height              : 522px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-homedesktop .bp1-section2 .bp1-greycircuit-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section2 .bp1-greenlines {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 803px;
+  width               : 670px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section2 .bp1-marlee {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 480px;
+  height              : 292px;
+  width               : 292px;
+  position            : absolute;
+  margin              : 0;
+  left                : 597px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section2 .bp1-marlee {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section2 .bp1-marlee:hover {
+  transform           : scale(1.1);
+}
+.bp1-homedesktop .bp1-section2 .bp1-june {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 256px;
+  height              : 292px;
+  width               : 292px;
+  position            : absolute;
+  margin              : 0;
+  left                : 205px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section2 .bp1-june {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section2 .bp1-june:hover {
+  transform           : scale(1.1);
+}
+.bp1-homedesktop .bp1-section2 .bp1-jasmine {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : 292px;
+  width               : 292px;
+  position            : absolute;
+  margin              : 0;
+  left                : 525px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section2 .bp1-jasmine {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section2 .bp1-jasmine:hover {
+  transform           : scale(1.1);
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : auto;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 820px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup .bp1-jasminekauraexcer {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 316px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup .bp1-jasminekauraexcer .bp1-span1 {
+  line-height         : 31.0px;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup .bp1-jasminekauraexcer .bp1-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup .bp1-jasminekauraexcer .bp1-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup .bp1-viewportfolio {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 47px;
+  margin              : 5px 0 0 0;
+  width               : 146px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup .bp1-viewportfolio {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup .bp1-viewportfolio:hover {
+  filter              : grayscale(100%);
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup .bp1-viewportfolio .bp1-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup .bp1-viewportfolio .bp1-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 107px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 308px;
+  height              : auto;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 486px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup2 .bp1-juneyoungkimaexce {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 316px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup2 .bp1-juneyoungkimaexce .bp1-span1 {
+  line-height         : 31.0px;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup2 .bp1-juneyoungkimaexce .bp1-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup2 .bp1-juneyoungkimaexce .bp1-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup2 .bp1-viewportfoliocopy {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 47px;
+  margin              : 5px 0 0 0;
+  width               : 146px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup2 .bp1-viewportfoliocopy {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup2 .bp1-viewportfoliocopy:hover {
+  filter              : grayscale(100%);
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup2 .bp1-viewportfoliocopy .bp1-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup2 .bp1-viewportfoliocopy .bp1-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup3 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 521px;
+  height              : auto;
+  width               : 314px;
+  position            : absolute;
+  margin              : 0;
+  left                : 904px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup3 .bp1-marleepestellaexc {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 316px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup3 .bp1-marleepestellaexc .bp1-span1 {
+  line-height         : 31.0px;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup3 .bp1-marleepestellaexc .bp1-span2 {
+  font-size           : 36.0px;
+  line-height         : 47.0px;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup3 .bp1-marleepestellaexc .bp1-span3 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup3 .bp1-viewportfoliocopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 47px;
+  margin              : 5px 0 0 0;
+  width               : 146px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup3 .bp1-viewportfoliocopy2 {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup3 .bp1-viewportfoliocopy2:hover {
+  filter              : grayscale(100%);
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup3 .bp1-viewportfoliocopy2 .bp1-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 47px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-section2 .bp1-stackedgroup3 .bp1-viewportfoliocopy2 .bp1-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : 125px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp1-homedesktop .bp1-footer {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 211px;
+  width               : calc(100.00% + 1px);
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-footer .bp1-rectangle {
+  background-color    : rgba(48, 52, 63, 1.0);
+  bottom              : 0px;
+  height              : 211px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-footer .bp1-a2020northislandco {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 324px;
+  top                 : 146px;
+  height              : auto;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.bp1-homedesktop .bp1-footer .bp1-nicaddress2300rya {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  width               : 100%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp1-homedesktop .bp1-footer .bp1-nicaddress2300rya-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : 234px;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 293px;
+}
+.bp1-homedesktop .bp1-footer .bp1-nicaddress2300rya-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-footer .bp1-nicaddress2300rya .bp1-span1 {
+  line-height         : 29.0px;
+}
+.bp1-homedesktop .bp1-footer .bp1-nicaddress2300rya .bp1-span2 {
+  font-size           : 18.0px;
+  line-height         : 21.0px;
+}
+.bp1-homedesktop .bp1-footer .bp1-niccontactquestion {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  width               : 100%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.bp1-homedesktop .bp1-footer .bp1-niccontactquestion-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : 234px;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 533px;
+}
+.bp1-homedesktop .bp1-footer .bp1-niccontactquestion-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-homedesktop .bp1-footer .bp1-niccontactquestion .bp1-span1 {
+  line-height         : 29.0px;
+}
+.bp1-homedesktop .bp1-footer .bp1-niccontactquestion .bp1-span2 {
+  font-size           : 18.0px;
+  line-height         : 21.0px;
+}
+.bp1-homedesktop .bp1-footer .bp1-copyright {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 498px;
+  top                 : 146px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-footer .bp1-facebookicon {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 293px;
+  top                 : 86px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-footer .bp1-instagramicon {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 347px;
+  top                 : 86px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-footer .bp1-linkedinicon {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 402px;
+  top                 : 86px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-footer .bp1-twittericon {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 457px;
+  top                 : 86px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-homedesktop .bp1-footer .bp1-youtubeicon {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 512px;
+  top                 : 86px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.bp3-homemobile {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 6133px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-homemobile .bp3-header {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 499px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-header-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 68px;
+  align-items         : center;
+  height              : 650px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-homemobile .bp3-header-layout-container > * {
+  pointer-events      : auto;
+}
+.bp3-homemobile .bp3-header .bp3-sketchpattern4x {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 429px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-header .bp3-sketchpattern4x .bp3-sketchpattern4x1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 429px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-header .bp3-sketchpattern4x .bp3-sketchpattern4x1 .bp3-mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 429px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-header .bp3-sketchpattern4x .bp3-sketchpattern4x1 .bp3-sketchpattern4x2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -41px;
+  height              : 494px;
+  width               : 1375px;
+  position            : absolute;
+  margin              : 0;
+  left                : -322px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-header .bp3-a2020visionaries {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 424px;
+  height              : auto;
+  width               : 468px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 100;
+  font-style          : normal;
+  font-size           : 50.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : center;
+  line-height         : 36.0px;
+}
+.bp3-homemobile .bp3-header .bp3-a2020visionaries .bp3-span1 {
+  line-height         : 45.0px;
+}
+.bp3-homemobile .bp3-header .bp3-a2020visionaries .bp3-span2 {
+  font-size           : 60.0px;
+  line-height         : 45.0px;
+}
+.bp3-homemobile .bp3-header .bp3-a2020visionaries .bp3-span3 {
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  line-height         : 45.0px;
+}
+.bp3-homemobile .bp3-header .bp3-neweranewdesign {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 525px;
+  height              : auto;
+  width               : 501px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp3-homemobile .bp3-header .bp3-gradshowbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 605px;
+  height              : 45px;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 157px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-header .bp3-gradshowbutton .bp3-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-header .bp3-gradshowbutton .bp3-gradshow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp3-homemobile .bp3-mainnav {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 40px;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-mainnav .bp3-a80logo3x {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3408px;
+  height              : 982px;
+  width               : 263px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section4 .bp3-michelle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 363px;
+  height              : 193px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section4 .bp3-jayda {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section4 .bp3-natalie {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 663px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section4 .bp3-viewportfoliocopy13 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 276px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section4 .bp3-viewportfoliocopy13 .bp3-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section4 .bp3-viewportfoliocopy13 .bp3-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp3-homemobile .bp3-section4 .bp3-viewportfoliocopy14 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 608px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section4 .bp3-viewportfoliocopy14 .bp3-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section4 .bp3-viewportfoliocopy14 .bp3-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp3-homemobile .bp3-section4 .bp3-viewportfoliocopy15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 937px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section4 .bp3-viewportfoliocopy15 .bp3-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section4 .bp3-viewportfoliocopy15 .bp3-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp3-homemobile .bp3-section4 .bp3-jaydaloose {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 235px;
+  height              : auto;
+  width               : 261px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : center;
+  line-height         : 31.0px;
+}
+.bp3-homemobile .bp3-section4 .bp3-michellebeaule {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 567px;
+  height              : auto;
+  width               : 261px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : center;
+  line-height         : 31.0px;
+}
+.bp3-homemobile .bp3-section4 .bp3-natalieevans {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 896px;
+  height              : auto;
+  width               : 261px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : center;
+  line-height         : 31.0px;
+}
+.bp3-homemobile .bp3-about {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 320px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-about-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 806px;
+  align-items         : center;
+  height              : 498px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-homemobile .bp3-about-layout-container > * {
+  pointer-events      : auto;
+}
+.bp3-homemobile .bp3-about .bp3-rectangle {
+  background-color    : rgba(48, 52, 63, 1.0);
+  top                 : 0px;
+  height              : 498px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-about .bp3-alittleaboutuslo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 94px;
+  height              : auto;
+  width               : 263px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp3-homemobile .bp3-about .bp3-alittleaboutuslo .bp3-span1 {
+  line-height         : 31.0px;
+}
+.bp3-homemobile .bp3-about .bp3-alittleaboutuslo .bp3-span2 {
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  line-height         : 19.0px;
+}
+.bp3-homemobile .bp3-about .bp3-line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 155px;
+  height              : 2px;
+  width               : 56px;
+  position            : absolute;
+  margin              : 0;
+  left                : 132px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1346px;
+  height              : 1012px;
+  width               : 262px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section2 .bp3-jasmine {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section2 .bp3-june {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 345px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section2 .bp3-marlee {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 690px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section2 .bp3-viewportfoliocopy7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 280px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section2 .bp3-viewportfoliocopy7 .bp3-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section2 .bp3-viewportfoliocopy7 .bp3-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp3-homemobile .bp3-section2 .bp3-viewportfoliocopy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 625px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section2 .bp3-viewportfoliocopy8 .bp3-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section2 .bp3-viewportfoliocopy8 .bp3-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp3-homemobile .bp3-section2 .bp3-viewportfoliocopy9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 967px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section2 .bp3-viewportfoliocopy9 .bp3-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section2 .bp3-viewportfoliocopy9 .bp3-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp3-homemobile .bp3-section2 .bp3-jasminekaur {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 239px;
+  height              : auto;
+  width               : 261px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : center;
+  line-height         : 31.0px;
+}
+.bp3-homemobile .bp3-section2 .bp3-juneyoungkim {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 584px;
+  height              : auto;
+  width               : 261px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : center;
+  line-height         : 31.0px;
+}
+.bp3-homemobile .bp3-section2 .bp3-marleepestell {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 926px;
+  height              : auto;
+  width               : 261px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : center;
+  line-height         : 31.0px;
+}
+.bp3-homemobile .bp3-section3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2379px;
+  height              : 1021px;
+  width               : 263px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section3 .bp3-ghislaine {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 345px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section3 .bp3-robandeep {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 690px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section3 .bp3-josh {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section3 .bp3-viewportfoliocopy10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 265px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section3 .bp3-viewportfoliocopy10 .bp3-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section3 .bp3-viewportfoliocopy10 .bp3-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp3-homemobile .bp3-section3 .bp3-viewportfoliocopy11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 622px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section3 .bp3-viewportfoliocopy11 .bp3-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section3 .bp3-viewportfoliocopy11 .bp3-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp3-homemobile .bp3-section3 .bp3-viewportfoliocopy12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 976px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 61px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section3 .bp3-viewportfoliocopy12 .bp3-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section3 .bp3-viewportfoliocopy12 .bp3-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp3-homemobile .bp3-section3 .bp3-joshuavenne {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 224px;
+  height              : auto;
+  width               : 261px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : center;
+  line-height         : 31.0px;
+}
+.bp3-homemobile .bp3-section3 .bp3-joshuavennecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 581px;
+  height              : auto;
+  width               : 261px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : center;
+  line-height         : 31.0px;
+}
+.bp3-homemobile .bp3-section3 .bp3-joshuavennecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 935px;
+  height              : auto;
+  width               : 261px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : center;
+  line-height         : 31.0px;
+}
+.bp3-homemobile .bp3-section5 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 262px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section5-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 4417px;
+  align-items         : center;
+  height              : 1006px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-homemobile .bp3-section5-layout-container > * {
+  pointer-events      : auto;
+}
+.bp3-homemobile .bp3-section5 .bp3-tara {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section5 .bp3-sandeep {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 690px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section5 .bp3-davis {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 345px;
+  height              : 245px;
+  width               : 245px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section5 .bp3-viewportfoliocopy16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 281px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section5 .bp3-viewportfoliocopy16 .bp3-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section5 .bp3-viewportfoliocopy16 .bp3-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp3-homemobile .bp3-section5 .bp3-viewportfoliocopy17 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 620px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section5 .bp3-viewportfoliocopy17 .bp3-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section5 .bp3-viewportfoliocopy17 .bp3-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp3-homemobile .bp3-section5 .bp3-viewportfoliocopy18 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 961px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section5 .bp3-viewportfoliocopy18 .bp3-rectangle {
+  background-color    : rgba(52, 0, 104, 1.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-section5 .bp3-viewportfoliocopy18 .bp3-portfolio {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp3-homemobile .bp3-section5 .bp3-tarajakubiec {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 240px;
+  height              : auto;
+  width               : 261px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : center;
+  line-height         : 31.0px;
+}
+.bp3-homemobile .bp3-section5 .bp3-davismartin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 579px;
+  height              : auto;
+  width               : 261px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : center;
+  line-height         : 31.0px;
+}
+.bp3-homemobile .bp3-section5 .bp3-davismartincopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 920px;
+  height              : auto;
+  width               : 261px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Anders", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(48, 52, 63, 1.0);
+  text-align          : center;
+  line-height         : 31.0px;
+}
+.bp3-homemobile .bp3-footer {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : 0px;
+  height              : 649px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-footer .bp3-rectangle {
+  background-color    : rgba(48, 52, 63, 1.0);
+  top                 : 0px;
+  height              : 649px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-footer .bp3-a2020northislandco {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 579px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.bp3-homemobile .bp3-footer .bp3-nicaddress2300rya {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 232px;
+  height              : auto;
+  width               : 194px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.bp3-homemobile .bp3-footer .bp3-nicaddress2300rya .bp3-span1 {
+  line-height         : 29.0px;
+}
+.bp3-homemobile .bp3-footer .bp3-nicaddress2300rya .bp3-span2 {
+  font-size           : 18.0px;
+  line-height         : 21.0px;
+}
+.bp3-homemobile .bp3-footer .bp3-niccontactquestion {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 78px;
+  height              : auto;
+  width               : 194px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Raleway", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(244, 242, 249, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.bp3-homemobile .bp3-footer .bp3-niccontactquestion .bp3-span1 {
+  line-height         : 29.0px;
+}
+.bp3-homemobile .bp3-footer .bp3-niccontactquestion .bp3-span2 {
+  font-size           : 18.0px;
+  line-height         : 21.0px;
+}
+.bp3-homemobile .bp3-footer .bp3-copyright {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 579px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-footer .bp3-facebookicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 454px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-footer .bp3-instagramicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 454px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-footer .bp3-linkedinicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 399px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-footer .bp3-twittericon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 399px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 143px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-homemobile .bp3-footer .bp3-youtubeicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 399px;
+  height              : 35px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 88px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+@media screen and (max-width: 767px) {
+  .bp3-homemobile {
+    display             : block;
+  }
+  .bp2-hometablet {
+    display             : none;
+  }
+  .bp1-homedesktop {
+    display             : none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .bp3-homemobile {
+    display             : none;
+  }
+  .bp2-hometablet {
+    display             : block;
+  }
+  .bp1-homedesktop {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .bp3-homemobile {
+    display             : none;
+  }
+  .bp2-hometablet {
+    display             : none;
+  }
+  .bp1-homedesktop {
+    display             : block;
+  }
+}
